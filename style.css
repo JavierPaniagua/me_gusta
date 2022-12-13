@@ -1,0 +1,43 @@
+
+.contenedor {
+    border: 1px solid black;
+    margin: 10px;
+    width: 400px;
+}
+
+
+.sub_contenedor {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding-left: 60px;
+}
+
+/* contenedores */
+
+.contenedor_principal{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contenedor_izquierda {
+    background-color: blueviolet;
+    height: 200px;
+    
+   
+}
+
+
+.contenedor_derecha{
+    
+    
+}
