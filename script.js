@@ -2,8 +2,8 @@ var count = 1;
 var count1 = 1;
 var count2 = 1;
 var countElement = document.querySelector("#count");
-var countElement = document.querySelector(".count1");
-var countElement = document.querySelector(".count2");
+var count1Element = document.querySelector("#count1");
+var count2Element = document.querySelector("#count2");
 
 
 function like() {
@@ -14,12 +14,12 @@ function like() {
 
 function like1() {
     count1++;
-    countElement.innerText = count1 + " like(s)" ;
+    count1Element.innerText = count1 + " like(s)" ;
     
 }
 
 function like2() {
     count2++;
-    countElement.innerText = count2 + " like(s)" ;
+    count2Element.innerText = count2 + " like(s)" ;
     
 }

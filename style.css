@@ -32,12 +32,26 @@ p {
 .contenedor_izquierda {
     background-color: blueviolet;
     height: 200px;
-    
-   
 }
 
+.titulo {
+    text-align: center;
+}
+img {
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
 
-.contenedor_derecha{
-    
-    
+.nombre {
+    text-align: center;
+}
+
+.encabezado {
+    background-color: black;
+    color: white;
+    width: 540px;
+    margin-left: 360px;
+
 }
